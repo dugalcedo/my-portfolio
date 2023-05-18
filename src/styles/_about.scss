@@ -1,0 +1,84 @@
+@use 'mixins' as *;
+
+#about {
+    & > *:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+    & > h3 {
+        background-color: rgba(black, .1);
+    }
+}
+
+#about-header {
+    display: flex;
+    gap: 1rem;
+}
+
+#me {
+    width: 64px;
+    object-fit: cover;
+    @include shadow();
+    filter: contrast(2) grayscale(1);
+}
+
+#about-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.about-skill {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    & img {
+        width: 32px;
+        display: block;
+    }
+    & span {
+        font-size: 85%;
+    }
+}
+
+#about-testimonials {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.about-testimonial {
+    background-color: rgba(black, .1);
+    padding: .5rem;
+    border-radius: .25rem;
+    &:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+}
+
+.about-testimonial_text {
+    margin: 0;
+    font-style: italic;
+    font-size: 85%;
+}
+
+.about-testimonial_author {
+    text-align: right;
+    opacity: 0.7;
+    & a {
+        text-decoration: underline;
+        font-size: 80%;
+    }
+}
+
+.about-experience {
+    background-color: rgba(black, .1);
+    padding: .5em;
+    border-radius: .25em;
+    @include notlast() {
+        margin-bottom: 1em;
+    }
+}
+
+.ae-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

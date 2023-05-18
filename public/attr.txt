@@ -1,0 +1,21 @@
+<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/css" title="css icons">Css icons created by Pixel perfect - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by edt.im - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/object" title="object icons">Object icons created by juicy_fish - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/animation" title="animation icons">Animation icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/context" title="context icons">Context icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/typescript" title="typescript icons">Typescript icons created by Freepik - Flaticon</a>
