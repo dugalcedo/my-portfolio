@@ -63,13 +63,13 @@ export default function Background() {
     }
     
     useEffect(()=>{
-        if (loaded) {
+
+        changeBg()
+        document.addEventListener('requestBackgroundChange', ()=>{
+            if (changing) return
             changeBg()
-            document.addEventListener('requestBackgroundChange', ()=>{
-                if (changing) return
-                changeBg()
-            })
-        } else loaded = true
+        })
+
     })
 
     return (
