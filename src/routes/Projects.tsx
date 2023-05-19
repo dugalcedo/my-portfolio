@@ -97,7 +97,7 @@ const projects: DougProject[] = [
         desc: "A React SPA to use as my personal portfolio. ",
         links: [
             ["Link", "/"],
-            ["github", "#"]
+            ["github", "https://github.com/dugalcedo/my-portfolio"]
         ],
         attr
     },
@@ -107,7 +107,7 @@ const projects: DougProject[] = [
         techs: ["js", "mvc", "node", "test"],
         descShort: "A job simulation with the goal of creating an API for coffee drinks.",
         to: "coffee",
-        desc: "",
+        desc: "A job simulation provided by diggit.io where I was tasked with creating an API for getting information about coffee drinks. I created it with express. See the evaluation link for more info.",
         links: [
             ["Evaluation", "/backend-eval.webp"]
         ]
@@ -119,25 +119,33 @@ const projects: DougProject[] = [
         descShort: "Educational tool for my students.",
         to: "useContext",
         desc: "A github repository that walks the developer through different examples of React's context API. Designed to help my students.",
-        links: []
+        links: [
+            ['github repo', 'https://github.com/dugalcedo/use-context-tutorial']
+        ]
     },
     {
         title: "dug.wtf",
         type: "personal",
         techs: ["hcj", "svelte", "sass"],
-        descShort: "",
+        descShort: "Personal website for showcasing my electronic music.",
         to: "dugwtf",
-        desc: "",
-        links: [],
+        desc: "Personal website for showcasing my electronic music.",
+        links: [
+            ['Link', 'https://dug.wtf/'],
+            ['github repo', 'https://github.com/dugalcedo/dugwtf']
+        ],
     },
     {
         title: "javascript pong",
         type: ["personal", "practice"],
         techs: ["hcj", "oop"],
-        descShort: "",
+        descShort: "Recreation of Pong.",
         to: "pong",
-        desc: "",
-        links: []
+        desc: "Recreation of the classic game Pong using OOP-principles.",
+        links: [
+            ['github repo', 'https://github.com/dugalcedo/pong'],
+            ['Play', 'https://dugpong.vercel.app/']
+        ]
     },
 ]
 
