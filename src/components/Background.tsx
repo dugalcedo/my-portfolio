@@ -10,7 +10,6 @@ const colors = [
 
 const rand = (arr: any) => arr[Math.floor(Math.random()*arr.length)]
 let color: string = rand(colors)
-let loaded = false
 let changing = false
 
 export default function Background() {
